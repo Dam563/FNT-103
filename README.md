@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+# Project: BuzzLife Blog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is part of Capstone project in Microverse's rails curriculum, to build a Ruby on Rails application where people can write articles. Find it here.
+This is a website with articles about books, wedding business, fishing equipment, mushrooms - anything that you can write an article.
 
-## Available Scripts
+## Built With
 
-In the project directory, you can run:
+- Ruby v2.7.0
+- Ruby on Rails v6.0.2.1
 
-### `npm start`
+## Technologies
+- HTML
+- CSS
+- Ruby
+- Ruby On Rails
+- SASS
+- Cloudinary
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Live Demo(video link)
+Live link
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Deployment to heroku
+Live link
 
-### `npm test`
+![](https://res.cloudinary.com/elijjaaahhhh/image/upload/v1590520670/BuzzLife_fdtxiy.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![](https://res.cloudinary.com/elijjaaahhhh/image/upload/v1590520670/BuzzLife-2_banun3.png)
 
-### `npm run build`
+![](https://res.cloudinary.com/elijjaaahhhh/image/upload/v1590523866/FireShot_Capture_101_-_BuzzLife_-_buzzlife.herokuapp.com_mwuqko.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Ruby: 2.7.0
+- Rails: 6.0.2.1
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Functionalities 
+- Signup
+- Login
+- Create articles
+- upload images
+- vote or unvote an article
+- Delete articles
+- Show articles with highest votes on home page
+- Show most popular articles
+- Each category displays all the articles under it
+- Signout
 
-### `npm run eject`
+## Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+sh
+$ git clone https://github.com/Elijahscriptdev/Buzz_me.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Navigate to the extracted folder
+sh
+$ cd Buzz_me
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Install the gems
+sh
+$ bundle install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Create the database
+sh
+$ rails db:create
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Run the migrations
+sh
+$ rails db:migrate
 
-### Analyzing the Bundle Size
+Run seed migrations
+sh
+$ rails db:seed
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Usage
 
-### Advanced Configuration
+Start server with:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+sh
+    rails server
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Open `http://localhost:3000/` in your browser.
 
-### `npm run build` fails to minify
+### Run tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+    rpsec
+
+
+
+## Author
+
+👤 *Elijah Obominuru*
+
+Github | Twitter | LinkedIn
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Credits
+App UI Design idea by Nelson Sakwa on Behance
+
+## 📝 License
+
+This project is licensed under MIT license - see [LICENSE](/LICENSE) for more details.

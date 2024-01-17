@@ -1,0 +1,11 @@
+#product_image{
+    display: flex;
+     margin: 10px;
+     gap: 10px;
+}
+
+
+
+img{
+    width: 200px;
+}
