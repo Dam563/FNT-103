@@ -1,41 +1,32 @@
-# Project: BuzzLife Blog
+# Project: React JS Class
 
-This is part of Capstone project in Microverse's rails curriculum, to build a Ruby on Rails application where people can write articles. Find it here.
-This is a website with articles about books, wedding business, fishing equipment, mushrooms - anything that you can write an article.
+This is a summary of what we have done so far in my React JS Class.
+<!-- This is part of Capstone project in Microverse's rails curriculum, to build a Ruby on Rails application where people can write articles. Find it here.
+This is a website with articles about books, wedding business, fishing equipment, mushrooms - anything that you can write an article. -->
 
 ## Built With
 
-- Ruby v2.7.0
-- Ruby on Rails v6.0.2.1
+- React 6.0.0
+- React Router v.6.21.2
 
 ## Technologies
-- HTML
+- React JS
 - CSS
-- Ruby
-- Ruby On Rails
-- SASS
-- Cloudinary
 
 ## Live Demo(video link)
 Live link
 
-## Deployment to heroku
-Live link
-
-![](https://res.cloudinary.com/elijjaaahhhh/image/upload/v1590520670/BuzzLife_fdtxiy.png)
-
-![](https://res.cloudinary.com/elijjaaahhhh/image/upload/v1590520670/BuzzLife-2_banun3.png)
-
-![](https://res.cloudinary.com/elijjaaahhhh/image/upload/v1590523866/FireShot_Capture_101_-_BuzzLife_-_buzzlife.herokuapp.com_mwuqko.png)
+## Deployment to vercel
+https://react-js-class.vercel.app/
 
 ## Prerequisites
 
-- Ruby: 2.7.0
-- Rails: 6.0.2.1
+- Node
+<!-- - Rails: 6.0.2.1 -->
 
 ## Functionalities 
 - Signup
-- Login
+- Dashboard
 - Create articles
 - upload images
 - vote or unvote an article
@@ -48,12 +39,12 @@ Live link
 ## Setup
 
 sh
-$ git clone https://github.com/Elijahscriptdev/Buzz_me.git
+$ git clone https://github.com/Dam563/FNT-103.git
 
 
 Navigate to the extracted folder
 sh
-$ cd Buzz_me
+$ cd react-js-class
 
 
 Install the gems
@@ -81,7 +72,7 @@ $ rails db:seed
 Start server with:
 
 sh
-    rails server
+    npm start
 
 
 Open `http://localhost:3000/` in your browser.
@@ -95,7 +86,7 @@ Open `http://localhost:3000/` in your browser.
 
 ## Author
 
-👤 *Elijah Obominuru*
+👤 *Damilola Babatunde*
 
 Github | Twitter | LinkedIn
 
