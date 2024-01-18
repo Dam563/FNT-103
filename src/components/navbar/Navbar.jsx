@@ -2,7 +2,8 @@ import React from "react";
 import {NavLink } from "react-router-dom";
 import './navbar.css';
 
-const Navbar = () => {
+const Navbar = ({increment , decrement}) => {
+//     const Navbar = (props) => { another way to write line 5
   return (
     <nav>
       <ul>
@@ -34,6 +35,10 @@ const Navbar = () => {
           <NavLink to="/worldrank" id="list-item">World Rank</NavLink>
         </li>
       </ul>
+
+      <button onClick={() =>increment()}>Increment</button>
+      {/* <button onClick={props.increment}>Increment</button> Another way to do line 38 */}
+      <button onClick={() =>decrement()}>Decrement</button>
     </nav>
   );
 };

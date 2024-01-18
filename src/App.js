@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Router } from "react-router-dom";
 import Counter from "./Pages/counter/Counter"
 import FormikForm from "./Pages/eventHandling/formikForm/FormikForm";
 import OnchangeEvent from "./Pages/onchangeEvent/OnchangeEvent";
@@ -11,6 +11,13 @@ import Person from "./Pages/person/Person";
 import Productcategories from "./Pages/productcategories/Productcategories";
 import Worldrank from "./Pages/worldRank/Worldrank";
 import './App.css';
+import Props from "./components/props/Props";
+import Dashboard from "./Pages/dashboard/Dashboard";
+import Home from "./Pages/home/Home";
+import Services from "./Pages/service/Services";
+import Transactions from "./Pages/transactions/Transactions";
+import Wallet from "./Pages/wallet/Wallet";
+import Account from "./Pages/account/Account";
 
 
 const App = () =>{
@@ -30,7 +37,16 @@ let count = 5;
       <Route path="/onchangeevent" element={<OnchangeEvent />} />
       <Route path="/productcategories" element={<Productcategories />} />
       <Route path="/worldrank" element={<Worldrank />} />
+      <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/transactions" element={<Transactions />} />
+      <Route path="/wallet" element={<Wallet />} />
+      <Route path="/account" element={<Account />} />
+      
+      {/* <Route path="/props" element{<Props />} /> */}
       </Routes>
+      <Props />
       </div>
   )
 

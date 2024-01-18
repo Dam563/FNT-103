@@ -13,3 +13,6 @@ ul{
     gap: 20px;
     justify-content: flex-end;
 }
+p{
+    color: #fff;
+}

@@ -1,0 +1,46 @@
+.logo {
+  width: 130px;
+  height: 32.293px;
+  flex-shrink: 0;
+}
+.sidebar-btn {
+  margin-top: 35px;
+}
+.sidebar {
+  background: #fff;
+  box-shadow: 4px 0px 10px 0px rgba(43, 53, 130, 0.07);
+  width: 236px;
+  height: 900px;
+  flex-shrink: 0;
+}
+.home {
+  display: flex;
+  gap: 20px;
+  padding-left: 10px;
+  width: 219px;
+  height: 45px;
+  margin-bottom: 10px;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.home-img {
+  width: 18px;
+  height: 18px;
+  margin-top: 15px;
+  flex-shrink: 0;
+}
+.home-paragraph {
+  color: var(--Secondary-Blue, #000152);
+  padding-top: 10px;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.sidebar .sidebar-btn a.active {
+  border-radius: 10px 0px 0px 10px;
+  background-color: #fff;
+  box-shadow: -4px 0px 15px 0px rgba(43, 53, 130, 0.08);
+}
