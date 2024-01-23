@@ -36,9 +36,9 @@ const Navbar = ({increment , decrement}) => {
         </li>
       </ul>
 
-      <button onClick={() =>increment()}>Increment</button>
+      {/* <button onClick={() =>increment()}>Increment</button> */}
       {/* <button onClick={props.increment}>Increment</button> Another way to do line 38 */}
-      <button onClick={() =>decrement()}>Decrement</button>
+      {/* <button onClick={() =>decrement()}>Decrement</button> */}
     </nav>
   );
 };

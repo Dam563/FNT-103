@@ -18,6 +18,8 @@ import Services from "./Pages/service/Services";
 import Transactions from "./Pages/transactions/Transactions";
 import Wallet from "./Pages/wallet/Wallet";
 import Account from "./Pages/account/Account";
+import Description from "./components/description/Description";
+import Ecommerce from "./Pages/ecommerce/Ecommerce";
 
 
 const App = () =>{
@@ -30,7 +32,7 @@ let count = 5;
     <Routes>
       <Route path="/" element={<Homepage />} />
       <Route path="/learnstate" element={<Learnstate />} />
-      <Route path="/counter" element={<Counter count={count} data="Hello" />} />
+      <Route path="/counter/:id" element={<Counter count={count} data="Hello" />} />
       <Route path="/person" element={<Person />} />
       <Route path="/learnhooks" element={<Learnhooks />} />
       <Route path="/formikform" element={<FormikForm />} />
@@ -43,6 +45,8 @@ let count = 5;
       <Route path="/transactions" element={<Transactions />} />
       <Route path="/wallet" element={<Wallet />} />
       <Route path="/account" element={<Account />} />
+      <Route path="/description/:id" element={<Description/>}/>
+      <Route path="/ecommerce" element={<Ecommerce />}/>
       
       {/* <Route path="/props" element{<Props />} /> */}
       </Routes>

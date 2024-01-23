@@ -8,10 +8,11 @@ return(
     <div>
         <Navbar />
         <div id="hero-section">
-        <h2>Welcome to my page!</h2>
-        <p>This page contains everything I have learnt so far in my React JS class.</p>
-        <p>Sit back and enjoy as you check through.</p>
-        <Link to="/home">Take me to Dashboard</Link>
+        <h2 id="hero-head">Welcome to my page!</h2>
+        <p id="hero-paragraph">This page contains everything I have learnt so far in my React JS class.</p>
+        <p id="hero-paragraph">Sit back and enjoy as you check through.</p>
+        <Link to="/home">Take me to Dashboard</Link> <br />
+        <Link to="/ecommerce">Take me to E-commerce store</Link>
         </div>
     </div>
 )
