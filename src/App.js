@@ -45,7 +45,7 @@ let count = 5;
       <Route path="/transactions" element={<Transactions />} />
       <Route path="/wallet" element={<Wallet />} />
       <Route path="/account" element={<Account />} />
-      <Route path="/description/:id" element={<Description/>}/>
+      <Route path="/product/:id" element={<Description/>}/>
       <Route path="/ecommerce" element={<Ecommerce />}/>
       
       {/* <Route path="/props" element{<Props />} /> */}
