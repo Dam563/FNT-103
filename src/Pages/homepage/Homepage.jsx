@@ -12,7 +12,8 @@ return(
         <p id="hero-paragraph">This page contains everything I have learnt so far in my React JS class.</p>
         <p id="hero-paragraph">Sit back and enjoy as you check through.</p>
         <Link to="/home">Take me to Dashboard</Link> <br />
-        <Link to="/ecommerce">Take me to E-commerce store</Link>
+        <Link to="/ecommerce">Take me to E-commerce store</Link> <br />
+        <Link to="/Todo">Take me to ToDo</Link>
         </div>
     </div>
 )

@@ -46,17 +46,12 @@ const Ecommerce = () => {
                 <p>{val.category}</p>
                 <p>{val.description}</p>
                 <p>{val.discountPercentage}</p>
-                <Link to={`/products/${val.id}`}>
-                  {/* <div id="product_image">
-                {val?.images.map((val, index) => (
-                  <div key={index}>
-                    <img src={val} alt="" />
-                  </div>
-                ))}
-              </div> */}
+                <li key={product.id}>
+              <Link to={`/product/${product.id}`} id="product-list-two">{product.title}</Link>
+            </li>
 
-                  <img src={val.thumbnail} alt="" />
-                </Link>
+                  {/* <img src={val.thumbnail} alt="" /> */}
+                
               </div>
             ))}
         </div>

@@ -1,0 +1,24 @@
+
+input{
+    border: 1px solid plum;
+    background-color: plum;
+    color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    border: 1px solid plum;
+    background-color: #444;
+    color: white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 10px;
+   width: 20%;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 5px;
+    margin-top: 10px;
+}

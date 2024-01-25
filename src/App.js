@@ -20,6 +20,7 @@ import Wallet from "./Pages/wallet/Wallet";
 import Account from "./Pages/account/Account";
 import Description from "./components/description/Description";
 import Ecommerce from "./Pages/ecommerce/Ecommerce";
+import Todo from "./Pages/todo/Todo";
 
 
 const App = () =>{
@@ -47,6 +48,7 @@ let count = 5;
       <Route path="/account" element={<Account />} />
       <Route path="/product/:id" element={<Description/>}/>
       <Route path="/ecommerce" element={<Ecommerce />}/>
+      <Route path="/Todo" element={<Todo />}/>
       
       {/* <Route path="/props" element{<Props />} /> */}
       </Routes>
