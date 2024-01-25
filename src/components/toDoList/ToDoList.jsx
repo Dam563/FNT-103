@@ -6,9 +6,10 @@ import './todolist.css';
 
 const ToDoList = ({ transactions }) => {
   return (
-    <ul>
+    <ul id='ul'>
       {transactions.map((transaction) => (
-        <li key={transaction.id}>
+        <li id='li'
+        key={transaction.id}>
           {transaction.date}     : {transaction.task}
         </li>
       ))}

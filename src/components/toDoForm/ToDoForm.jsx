@@ -19,6 +19,7 @@ const ToDoForm = ({ onAddTransaction }) => {
       <input
         type="text"
         value={task}
+        id='input'
         onChange={(e) => setTask(e.target.value)}
         placeholder="Enter your task"
         required
@@ -26,10 +27,11 @@ const ToDoForm = ({ onAddTransaction }) => {
        <input
         type="date"
         value={date}
+        id='input'
         onChange={(e) => setDate(e.target.value)}
         required
       />
-      <button type="submit">Add Task</button>
+      <button id='button' type="submit">Add Task</button>
     </form>
   );
 }

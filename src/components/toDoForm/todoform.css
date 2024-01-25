@@ -1,5 +1,5 @@
 
-input{
+#input{
     border: 1px solid plum;
     background-color: plum;
     color: white;
@@ -10,7 +10,7 @@ input{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-button{
+#button{
     border: 1px solid plum;
     background-color: #444;
     color: white;
