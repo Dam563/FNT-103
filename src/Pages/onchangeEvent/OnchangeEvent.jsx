@@ -23,33 +23,37 @@ const OnchangeEvent = () => {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="">First Name</label>
+        {/* <label htmlFor="">First Name</label> */}
         <input
           type="text"
           name="firstname"
           value={firstName}
+          placeholder="First Name"
           onChange={(e) => setFirstname(e.target.value)}
         />
-        <label htmlFor="">Last Name</label>
+        {/* <label htmlFor="">Last Name</label> */}
         <input
           type="text"
           name="lastname"
           value={lastName}
           onChange={(e) => setLastname(e.target.value)}
+          placeholder="Last Name"
         />
-        <label htmlFor="">Password</label>
+        {/* <label htmlFor="">Password</label> */}
         <input
           type="password"
           name="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
+          placeholder="Password"
         />
-        <label htmlFor="">Confirm Password</label>
+        {/* <label htmlFor="">Confirm Password</label> */}
         <input
           type="password"
           name="confirmPassword"
           value={confirmPassword}
           onChange={(e) => setConfirmpassword(e.target.value)}
+          placeholder="Confirm Password"
         />
         <select type="select" name="department" value={department}  onChange={(e) => setDepartment(e.target.value)}>
             <option value="frontend">Frontend</option>

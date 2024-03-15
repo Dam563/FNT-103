@@ -13,7 +13,7 @@ return(
         <p id="hero-paragraph">Sit back and enjoy as you check through.</p>
         <Link to="/home">Take me to Dashboard</Link> <br />
         <Link to="/ecommerce">Take me to E-commerce store</Link> <br />
-        <Link to="/Todo">Take me to ToDo</Link>
+        <Link to="/todo">Take me to ToDo</Link>
         </div>
     </div>
 )

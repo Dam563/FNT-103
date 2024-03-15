@@ -6,15 +6,16 @@ import { Link } from "react-router-dom";
 import "./ecommerce.css";
 import Footer from "../../components/footer/Footer";
 
-const Ecommerce = () => {
+const Ecommerce = (product) => {
   const [data, setData] = useState("");
   console.log("data", data);
 
   const getProductList = async () => {
-    const response = await axios.get("https://dummyjson.com/products?limit=10");
+    const response = await axios.get("https://zenquotes.io/api/quotes/");
     console.log("res", response.data.products);
     setData(response.data.products);
   };
+  // https://dummyjson.com/products?limit=12
 
   useEffect(() => {
     getProductList();
@@ -50,7 +51,7 @@ const Ecommerce = () => {
               <Link to={`/product/${product.id}`} id="product-list-two">{product.title}</Link>
             </li>
 
-                  {/* <img src={val.thumbnail} alt="" /> */}
+                  <img src={val.thumbnail} alt="" />
                 
               </div>
             ))}

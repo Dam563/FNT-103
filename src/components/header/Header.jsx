@@ -8,7 +8,7 @@ const Header = () => {
                 {/* Logo */}
                 <p>MyShop</p>
             <nav>
-                <NavLink to="" id="navlink">Home</NavLink>
+                <NavLink to="/ecommerce" id="navlink">Home</NavLink>
                 <NavLink to="/productcategories" id="navlink">Products</NavLink>
                 <NavLink to="" id="navlink">About Us</NavLink>
                 <NavLink to="" id="navlink">Contact</NavLink>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import './learnstate.css';
 
 function Learnstate() {
   const[age, setAge] = useState(7);
@@ -45,7 +46,7 @@ const isLoading = () => {
 
 
   return (
-    <div className="App">
+    <div className="learnstate">
       <button onClick={increment}>Increment</button>
       <p>{age}</p>
       <p>Michael loves cars like {car.make} made in {car.year}</p>

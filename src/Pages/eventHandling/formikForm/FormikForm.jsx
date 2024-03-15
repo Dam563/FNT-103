@@ -2,7 +2,8 @@ import React from "react";
 import { Formik } from "formik";
 // import "./formik.css";
 
-const FormikForm = () => (
+const FormikForm = () => {
+  return(
   <div>
     <h1>Complete your application</h1>
     <Formik
@@ -156,6 +157,7 @@ const FormikForm = () => (
       )}
     </Formik>
   </div>
-);
+  );
+}
 
 export default FormikForm;
